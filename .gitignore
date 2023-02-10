@@ -1,0 +1,6 @@
+#IDE:
+*.idea
+#Angular:
+*.angular
+#Modules:
+*node_modules

@@ -1,0 +1,253 @@
+.regButton {
+  display: block;
+  border: none;
+  background-color: #FAEBD7FF;
+  width: 50%;
+  height: 5%;
+  font-family: Georgia, serif;
+  font-size: 5vh;
+  text-align: center;
+  transition-property: background-color;
+}
+
+.regButton:hover {
+  background-color: #EBD9C1;
+}
+
+.entry-dialog {
+  box-sizing: content-box;
+  display: block;
+  width: 30%;
+  min-height: 35vh;
+  height: auto;
+  margin: auto;
+  margin-top: 13%;
+  background: #FAEBD7FF;
+}
+
+.entry-dialog h1 {
+  padding-top: 5%;
+  font-family: Georgia, serif;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.entry-dialog input {
+  font-family: Georgia, serif;
+  font-size: 3vh;
+  display: block;
+  margin: 5%;
+  width: 90%;
+  height: 5vh;
+  border: none;
+}
+
+.entry-dialog button {
+  border: none;
+  background: #EBD9C1;
+  font-family: Georgia, serif;
+  font-size: 5vh;
+  display: block;
+  margin: auto;
+  transition-duration: 250ms;
+}
+
+.entry-dialog button:hover {
+  background: #e7c8a8;
+  color: white;
+}
+
+.header {
+  font-family: Georgia, serif;
+  background: #FAEBD7FF;
+  width: 90%;
+  min-height: 8vh;
+  height: auto;
+  margin: auto;
+  padding: 5px;
+  color: black;
+}
+
+.header h1{
+  font-family: Georgia, serif;
+  font-size: 5vh;
+  margin-bottom: 0.3vh;
+  margin-left: 1vh;
+  padding-top: 2vh;
+}
+
+.header a{
+  font-size: 3vh;
+  margin-bottom: 1vh;
+  margin-left: 2vh;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.header a:link, .header a:visited {
+  color: black;
+}
+
+.header a:hover, .header select:hover {
+  color: #e7c8a8;
+}
+
+.header-select {
+  display: inline;
+  border: none;
+  background: none;
+  font-size: 3vh;
+  font-family: Georgia, serif;
+  margin-bottom: 1vh;
+  margin-left: 2vh;
+  transition-duration: 0.3s;
+}
+
+.side-menu {
+  display: inline-flex;
+  position: absolute;
+  top: 3%;
+  left: 90%;
+}
+.side-menu img {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.side-menu mat-icon {
+  margin-top: 15px;
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
+.side-menu mat-icon:hover {
+  color: #e7c8a8;
+}
+
+.hidden-side-menu {
+  background: #EBD9C1;
+  border: 3px solid #FAEBD7FF;
+  border-radius: 12px;
+
+  position: absolute;
+  top: 4%;
+  left: 77%;
+
+  height: auto;
+  min-height: 5vh;
+  width: auto;
+  min-width: 15vw;
+
+  transition-duration: 0.42s;
+}
+
+.hidden-side-menu:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hidden-side-menu mat-icon {
+  position: absolute;
+  display: inline;
+  left: 90%;
+  top: 6%;
+  transform: scale(1.5);
+}
+
+.hidden-side-menu a {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: 3vh;
+  margin: 1vh;
+}
+
+.hidden-side-menu h2 {
+  display: block;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  font-size: 3vh;
+  margin: 1vh;
+}
+
+.hidden-side-menu a:hover {
+  color: white;
+}
+
+.news-div {
+  background-color: #EBD9C1;
+  height: auto;
+  min-height: 5vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+.news-div p{
+  display: flex;
+  font-family: Georgia, serif;
+  font-size: 3vh;
+  padding-top: 1.5vh;
+  padding-left: 1.5vw;
+}
+
+.news-div a{
+  display: inline;
+  visibility: hidden;
+  font-family: Georgia, serif;
+  font-size: 1.5vh;
+  padding-top: 1.5vh;
+  padding-left: 1.5vw;
+}
+
+.news-div:hover a{
+  visibility: visible;
+}
+
+
+.input-add-block{
+  background: white;
+  border: 4px solid #FAEBD7FF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-width: 90%;
+  max-width: 90%;
+  min-height: 15vh;
+  height: auto;
+  margin-left: 9.2vh;
+  margin-top: 3vh;
+  color: black;
+  font-family: Georgia, serif;
+  font-size: 2vh;
+}
+
+.input-block-btn {
+  display: block;
+  float: right;
+  margin-right: 9vh;
+}
+
+.input-block-btn button{
+  margin: 5px;
+  display: block;
+  float: right;
+  width: 50px;
+  height: 50px;
+  background: #FAEBD7FF;
+  border-radius: 50%;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+.input-block-btn button:hover {
+  background: #EBD9C1;
+  color:white;
+}
+
+.input-block-btn mat-icon {
+  margin: auto;
+  transform: scale(1.5);
+  transition-duration: 0.3s;
+}
+
+
+

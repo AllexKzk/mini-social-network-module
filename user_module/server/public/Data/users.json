@@ -1,0 +1,41 @@
+{
+  "1": {
+    "name": "Artem Reshotkin",
+    "mail": "artem@mail",
+    "password": "1234",
+    "bday": "2022-10-28",
+    "img": "1.jpg",
+    "role": "1",
+    "status": "1",
+    "friends": [
+      "2", "3"
+    ],
+    "news": []
+  },
+  "2": {
+    "name": "Anatoly Golikoff",
+    "mail": "angol@mail",
+    "password": "1234",
+    "bday": "2022-10-28",
+    "img": "",
+    "role": "2",
+    "status": "1",
+    "friends": [
+      "1"
+    ],
+    "news": []
+  },
+  "3": {
+    "name": "Kritsyn Danila",
+    "mail": "cyb3rc001@mail",
+    "password": "1234",
+    "bday": "2022-10-28",
+    "img": "",
+    "role": "3",
+    "status": "1",
+    "friends": [
+      "1"
+    ],
+    "news": []
+  }
+}

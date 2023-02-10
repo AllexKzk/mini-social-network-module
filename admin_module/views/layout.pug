@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet' href ='GULP/style/main.min.css')
+    link(rel='stylesheet' href ='GULP/style/jquery-ui.css')
+    link(rel='stylesheet', href='font-awesome/css/font-awesome.css')
+    script(src = 'GULP/src/jquery.js')
+    script(src = 'GULP/src/jquery-ui.js')
+    script(src = 'GULP/src/main.js')
+  body(class='main-style')
+    block content
+      div(class = 'head-block')
+        h1(id = 'title') Список пользователей
+        button(class = 'circle-button', onclick = 'window.location.replace("/")') На главную
